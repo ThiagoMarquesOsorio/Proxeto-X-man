@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/js/index.js">
+</head>
+
+<body>
+    
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+    
+        <section class="personagens">
+    
+            <h1 class="titulo">Selecione um Personagem</h1>
+    
+            <ul class="lista-de-personagens">
+    
+                <li class="personagem selecionado" id="wolverine" data-name="Wolverine"
+                    data-description="Garras ​​de adamantium, sentidos apurados, super agilidade, fator cura a habilidade de regeneração.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem wolverine">
+                </li>
+                
+                <li class="personagem" id="ciclope" data-name="Ciclope"
+                    data-description="Dispara rajadas ópticas, controladas por seu óculos.Tornou-se um dos 1° pupilos do Dr.Chavier.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Mutante que nasceu com cauda,
+                orelhas pontudas e com o poder de Teletransportar.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto"
+                    data-description="Poder de MAGNOTECINESE, ou seja, controla objetos de metal e cria campos magnéticos.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem magneto">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                    data-description="Poder de controlar as forças da natureza, produzindo raios, chuvas, gelos, ventos entre outros poderes.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira"
+                    data-description="Absorve a vitalidade e memória das pessoas que toca. Dos mutantes, apenas temporariamente.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem vampira">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey"
+                    data-description="Mutante nível omega manifesta poderes cósmicos, telepatia, telecinese e viaja alem da velocidade da luz.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem jean-grey">
+
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                    data-description="Atravessa matéria sólida, campos de energia, rajadas ópticas e também tem o poder de andar no ar.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem lince-negra">
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./src/imagens/card-wolverine.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" class="wolverine"  id="nome-personagem">Wolverine</h2>
+                <p class="descricao-personagem" id="descricao-personagem">"Garras ​​de adamantium, sentidos apurados, super agilidade, fator cura a habilidade de regeneração."</p>
+            </div>
+
+        </section>
+    
+    </main>
+    
+    <script type="text/javascript" src="./src/js/index.js"></script>
+
+</body>
+
+</html>
